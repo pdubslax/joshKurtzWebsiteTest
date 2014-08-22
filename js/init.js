@@ -71,11 +71,11 @@
 				     console.log(all[i]);
 				     $(all[i]).hide("fast");				}
 
-				if($(this).find($("p")).is(":visible")){
-					$(this).find($("p")).hide("fast");
+				if($(this).find($(".infoBoxParagraph")).is(":visible")){
+					$(this).find($(".infoBoxParagraph")).hide("fast");
 					console.log("sdfdsf");
 				}else{
-					$(this).find($("p")).show("fast");
+					$(this).find($(".infoBoxParagraph")).show("fast");
 				}
 				event.preventDefault;
 			});
