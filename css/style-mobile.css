@@ -8,6 +8,13 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+.scheduleToSmall{
+	display: inline;
+}
+
+.schedule{
+	display: none;
+}
 .circularJosh.one{
 	display: none;
 }
