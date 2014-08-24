@@ -8,6 +8,14 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+.circularJosh.one{
+	display: none;
+}
+
+.circularJosh.three{
+	display: none;
+}
+
 	body,input,textarea,select
 	{
 		line-height: 1.75em;
