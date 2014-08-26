@@ -80,6 +80,18 @@
 				event.preventDefault;
 			});
 
+			$("#outtaHere").on("click", function(event){
+				console.log($("#outtaHere option:selected").text());
+				 var txt = $("#outtaHere option:selected").text();
+    			$('#testHEY').attr('value', txt);
+
+				// 
+			});  
+
+			
+
+			
+
 
 		
 	});
