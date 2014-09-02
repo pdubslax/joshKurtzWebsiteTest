@@ -250,6 +250,7 @@ html, body {
 				-o-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 				-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 				transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+				cursor: pointer;
 			}
 
 			form input[type=text]:focus,
