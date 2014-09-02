@@ -82,7 +82,8 @@
 
 			$("#outtaHere").on("change", function(event){
 				console.log($("#outtaHere option:selected").text());
-				 var txt = $("#outtaHere option:selected").text();
+				 var txt = $("#outtaHere option:selected").val();
+				 console.log(txt);
     			$('#testHEY').attr('value', txt);
 
 				// 

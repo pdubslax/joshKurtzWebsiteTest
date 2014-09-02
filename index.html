@@ -39,7 +39,9 @@
 					<li><a href="#portfolio">Testimonials</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#scheduling">Scheduling</a></li>
+					<li><a href="#payment">Payment</a></li>
 					<li><a href="#contact">Contact</a></li>
+
 					
 				</ul>
 			</nav>
@@ -73,7 +75,7 @@
 							</div>
 							<footer>
 								<h1 align="center">Welcome to <strong>Kurtz Tutoring</strong>.</h1>
-								<p align = "center"> This is where Josh's "mission statement" intro paragraph will go.</p>
+								<p align = "center"> My name is Josh Kurtz and I am a recent graduate from the University of Michigan with a degree in Honors Biochemistry. As an undergraduate, I taught and tutored hundreds of students in a wide variety of introductory science courses at the University of Michigan. I believe that all of the students I work with are exceptionally intelligent, but often the lecture or classroom style learning is not well-suited to their personal learning style. I love working with students to bridge this learning gap, helping students to genuinely understand course content and master homework and exams. </p>
 							</footer>
 						</div>
 					</div>
@@ -85,7 +87,7 @@
 				<article id="work">
 					<header>
 						<h2>Need help with these classes?</h2>
-						<p>I have personally taken the following and I want to help you learn!</p>
+						<p>I have personally taken and/or tutored the following and I want to help you learn!</p>
 					</header>
 					<div class="container">
 						<div class="row">
@@ -141,7 +143,7 @@
 			<div class="wrapper style1">
 				<article id="portfolio">
 					<header>
-						<h2>What do people thinking of my teaching?</h2>
+						<h2>What do people think of my tutoring?</h2>
 						<p>Quotes from your fellow classmates:</p>
 					</header>
 					<div class="container">
@@ -220,7 +222,7 @@
 					</header>
 					<div class="container">
 						<div class="row">
-							<div class="6u">
+							<div class="12u">
 								<div class="row">
 									<div class="12u" style="padding: 10px 0 0 25px">
 										<section class="box style1" id="infoBox">
@@ -245,8 +247,6 @@
 										</section>
 									</div>
 								</div>
-							</div>	
-							<div class="6u">
 								<div class="row">
 									<div class="12u" style="padding: 10px 0 0 25px">
 										<section class="box style1" id="infoBox">
@@ -271,7 +271,22 @@
 										</section>
 									</div>
 								</div>
+								<div class="row">
+									<div class="12u" style="padding: 10px 0 0 25px">
+										<section class="box style1" id="infoBox">
+											<h3 class="infoBoxHeadline">Awards and Honors</h3>
+											<p align=left class="infoBoxParagraph">Graduated with a 4.0 GPA with highest honor.
+        									Goldwater Scholarship for Outstanding Biochemistry Research.
+											Outstanding Organic SLC Organic Chemistry Course Leader 2014.
+								            8 Semester Angell Scholar at the University of Michigan.
+								            Karle Award for Outstanding Performace in the Physical Sciences 2014.
+								            Walter Yates Award for Outstanding Performance in Biochemistry 2014.
+								            Rosalie Ginsberg Award for Community Service 2014.</p>
+										</section>
+									</div>
+								</div>
 							</div>	
+						
 						</div>
 					</div>
 					<footer>
@@ -301,22 +316,40 @@
 						</div>
 					</div>
 					<footer>
-						<select id="outtaHere">
-						  <option value="1">10</option>
-						  <option value="2">20</option>
-						  <option value="3">30</option>
-						  <option value="4">40</option>
-						</select>
+						
 						<div>
-							<form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
-								<input type="hidden" name="cmd" value="_xclick">
-								<input type="hidden" name="business" value="pdubslax@umich.edu">
-								<input type="hidden" name="currency_code" value="USD">
-								<input type="hidden" name="item_name" value="Tutoring Lessons">
-								<input type="hidden" name="amount" value="10" id="testHEY">
-								<input type="submit" value="Submit">
-							</form>
+							
 						</div>
+					</footer>
+				</article>
+			</div>
+
+			<div class="wrapper style2">
+				<article id="payment">
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+								<h3 align = "center">Students may pay using cash, check, <a href="https://venmo.com/Josh-Kurtz">Venmo</a>, or Paypal
+								</h3>
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="3CJSTDEU5K3BN">
+									<table class="12u">
+									<tr><td><input type="hidden" name="on0" value="Tutoring Sessions">Select a Tutoring Session</td></
+									tr><tr><td><select name="os0" >
+									<option value="1 Lesson" >1 Lesson $45.00 USD</option>
+									<option value="5 Lessons">5 Lessons $200.00 USD</option>
+									<option value="10 Lessons">10 Lessons $350.00 USD</option>
+									<option value="20 Lessons">20 Lessons $600.00 USD</option>
+									</select> </td></tr>
+									</table>
+									<input type="hidden" name="currency_code" value="USD">
+									<input type="submit" value="Buy Now">
+								</form>
+							</div>	
+						</div>
+					</div>
+					<footer>
 					</footer>
 				</article>
 			</div>

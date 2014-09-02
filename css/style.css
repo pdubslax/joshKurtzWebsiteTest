@@ -25,7 +25,7 @@ html, body {
 }
 
 #infoPara:hover{
-	color: #000;
+	/*color: #000;*/
 }
 /*
 #infoBox:hover{
@@ -59,13 +59,13 @@ html, body {
  	-moz-border-radius: 150px;
 	}
 		.circularJosh.one{
- 			background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/165849_4389239333155_48225759_n.jpg?oh=af921e3dcf5be90ed82f9ac5eaeb62a8&oe=545F3BEA&__gda__=1415361279_5f1c8635ae75024e11260b105a666f22');
+ 			background-image: url('http://imgur.com/6czlaHL.png');
 		}
 		.circularJosh.two{
  			background-image: url('https://scontent-b-pao.xx.fbcdn.net/hphotos-xfp1/t1.0-9/1982252_10203601905192221_994980873_n.jpg');
 		}
 		.circularJosh.three{
-			 background-image: url('https://scontent-b-pao.xx.fbcdn.net/hphotos-xfa1/t1.0-9/1979867_10203647467131241_564269647_n.jpg');
+			 background-image: url('http://imgur.com/Ccs0di6.png');
 		}
 		.circularJosh.alex{
 			background-image: url('https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/10516671_10202285026983516_1928877068816185445_n.jpg');
